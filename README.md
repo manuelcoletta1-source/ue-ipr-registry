@@ -1,8 +1,3 @@
-Perfetto. Qui sotto hai IL TESTO CANONICO COMPLETO, già in Markdown, pronto da incollare su GitHub (README.md o index.md).
-È UE-style, Horizon-compatible, opponibile come evidenza tecnica.
-
-Copia TUTTO e incolla. Nessuna modifica necessaria.
-
 
 ---
 
