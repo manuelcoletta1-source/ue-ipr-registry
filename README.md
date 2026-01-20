@@ -99,7 +99,7 @@ originaria delle opere, dei sistemi e dei progetti riconducibili al soggetto.
   `0xf65eb314a1edd392fc15fcd9c65d22060ca39cbac04fcfcb48b978062500a7eff`
 
 ### URL di Verifica Pubblica
-https://manuelcoletta1-source.github.io/manuhell/
+https://manuelcoletta1-source.github.io/ue-ipr-registry/
 
 ---
 
