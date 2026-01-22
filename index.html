@@ -1,184 +1,102 @@
 <!doctype html>
 <html lang="it">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>EU IPR Registry — Identity Primary Record</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>UE IPR Registry — Public Experimental Registry</title>
+  <meta name="description" content="Registro pubblico sperimentale UE di Identity Primary Records (IPR). Evidenza, tracciabilità e verificabilità nel tempo." />
   <style>
-    body {
-      margin: 0;
-      background: #0b0b0b;
-      color: #eaeaea;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      line-height: 1.55;
-    }
-    header {
-      padding: 3rem 1.5rem;
-      border-bottom: 1px solid #222;
-    }
-    h1, h2, h3 {
-      color: #ffffff;
-    }
-    h1 {
-      margin: 0 0 0.5rem 0;
-      font-size: 2.1rem;
-    }
-    h2 {
-      margin-top: 2.5rem;
-      font-size: 1.4rem;
-      border-left: 4px solid #3ad6a0;
-      padding-left: 0.6rem;
-    }
-    h3 {
-      margin-top: 1.5rem;
-      font-size: 1.1rem;
-    }
-    main {
-      padding: 2rem 1.5rem;
-      max-width: 980px;
-    }
-    ul {
-      padding-left: 1.2rem;
-    }
-    code {
-      color: #8affc1;
-      word-break: break-all;
-    }
-    a {
-      color: #8affc1;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    footer {
-      padding: 1.5rem;
-      border-top: 1px solid #222;
-      font-size: 0.8rem;
-      color: #777;
-    }
-    .tag {
-      color: #8affc1;
-      font-weight: 600;
-      font-size: 0.9rem;
-      letter-spacing: 0.05em;
-    }
+    :root { color-scheme: dark; }
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background:#0b0c10; color:#e8e8e8; }
+    header, main, footer { max-width: 980px; margin: 0 auto; padding: 20px; }
+    .card { border: 1px solid #24262b; border-radius: 14px; padding: 16px; background: #0f1117; }
+    h1 { margin: 0 0 6px 0; font-size: 26px; letter-spacing: .2px; }
+    h2 { margin: 18px 0 10px 0; font-size: 18px; }
+    p { margin: 8px 0; line-height: 1.45; color:#cfd2d6; }
+    .meta { font-size: 13px; color:#9aa2aa; }
+    a { color: #d6b8ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+    .k { font-weight: 600; color:#e8e8e8; }
+    code { background:#0b0c10; padding: 2px 6px; border-radius: 8px; border:1px solid #24262b; }
+    .tag { display:inline-block; padding: 4px 10px; border:1px solid #24262b; border-radius: 999px; font-size: 12px; color:#cfd2d6; background:#0b0c10; }
+    .btnrow { display:flex; gap:10px; flex-wrap: wrap; margin-top: 10px; }
+    .btn { display:inline-block; padding:10px 12px; border-radius:12px; border:1px solid #24262b; background:#0b0c10; }
   </style>
 </head>
-
 <body>
   <header>
-    <span class="tag">UNIONE EUROPEA · REGISTRO PUBBLICO SPERIMENTALE</span>
-    <h1>Registro dei Diritti di Proprietà Intellettuale UE</h1>
-    <p>EU Identity Primary Record (IPR) Registry</p>
+    <div class="card">
+      <h1>UE IPR Registry</h1>
+      <div class="meta">Public Experimental Registry — UE-ready / Horizon-compatible</div>
+      <p>
+        Registro pubblico sperimentale di <span class="k">Identity Primary Records (IPR)</span>:
+        evidenza cronologica, continuità identitaria, verificabilità tecnica.
+      </p>
+      <div class="btnrow">
+        <a class="btn" href="./README.html">Leggi il Registro</a>
+        <a class="btn" href="https://github.com/manuelcoletta1-source/ue-ipr-registry">Repository</a>
+      </div>
+      <p class="meta">
+        Nota: non sostituisce registri ufficiali (EUIPO / nazionali). Costituisce evidenza tecnica documentale.
+      </p>
+    </div>
   </header>
 
   <main>
+    <div class="grid">
 
-    <h2>1. Natura del Registro</h2>
-    <p>
-      Il presente repository costituisce un <strong>registro pubblico sperimentale europeo</strong>
-      dei <strong>documenti primari di identità digitale</strong>
-      (<em>Identity Primary Record – IPR</em>).
-    </p>
-    <p>
-      Il registro fornisce <strong>evidenza documentale verificabile nel tempo</strong>
-      dell’esistenza, titolarità e continuità di soggetti, opere, sistemi e progetti in ambito UE.
-    </p>
+      <section class="card">
+        <h2>IPR-3 — Manuel Coletta</h2>
+        <p class="meta"><span class="tag">ACTIVE / COMPLETE</span> <span class="tag">EU</span></p>
+        <p><span class="k">Timestamp canonico:</span> <code>15:30 (CET)</code></p>
+        <p class="k">Ancoraggi</p>
+        <p>
+          <span class="k">IPFS CID:</span>
+          <code>bafkreidhv73vqrxoweog33ls3rnwrgyicio234pcuks6mnep76yh56pj5q</code>
+        </p>
+        <p>
+          <span class="k">BTC TXID:</span>
+          <code>9eeb29b67f4a649d563b95560fda5ddaa84777b13515f936837fc93d28554b45</code>
+        </p>
+        <p>
+          <span class="k">ETH TX:</span>
+          <code>0xf65eb314a1edd392fc15fcd9c65d22060ca39cbac04fcfcb48b978062500a7eff</code>
+        </p>
+      </section>
 
-    <h2>2. Definizione di Identity Primary Record (IPR)</h2>
-    <ul>
-      <li>attestare l’esistenza temporale di un soggetto o artefatto</li>
-      <li>certificare la titolarità originaria di opere, sistemi o progetti</li>
-      <li>garantire la continuità verificabile dell’identità associata</li>
-    </ul>
-    <p>
-      L’IPR opera <strong>a monte</strong> di registrazioni settoriali
-      (copyright, brevetti, marchi), fungendo da
-      <strong>prova di anteriorità e coerenza identitaria</strong>.
-    </p>
+      <section class="card">
+        <h2>IPR-5 — GitJoker (AIJOKER-C2)</h2>
+        <p class="meta"><span class="tag">ACTIVE</span> <span class="tag">C2</span> <span class="tag">Operational Identity</span></p>
+        <p><span class="k">Nodo canonico:</span> <code>AIJOKER-C2</code></p>
+        <p><span class="k">Alias endpoint:</span> <code>GITJOKER-C2</code></p>
+        <p class="k">Verifica</p>
+        <p>
+          <a href="./ipr5-gitjoker.manifest.json">Manifest UE (JSON)</a><br/>
+          <a href="https://manuelcoletta1-source.github.io/gitjoker-c2/manifest.json">Manifest nodo (GITJOKER-C2)</a><br/>
+          <a href="https://manuelcoletta1-source.github.io/gitjoker-c2/">Pagina pubblica GitJoker</a><br/>
+          <a href="https://github.com/manuelcoletta1-source/gitjoker-c2">Repo GitJoker-C2</a>
+        </p>
+      </section>
 
-    <h2>3. Ambito di Applicazione</h2>
-    <ul>
-      <li>Unione Europea / ambito istituzionale</li>
-      <li>Horizon Europe</li>
-      <li>Ricerca, innovazione e governance digitale</li>
-      <li>Identità digitale e audit trail pubblico</li>
-    </ul>
+      <section class="card">
+        <h2>Link rapidi</h2>
+        <p>
+          <a href="./ipr5-gitjoker.manifest.json">IPR-5 Manifest UE (JSON)</a><br/>
+          <a href="https://manuelcoletta1-source.github.io/gitjoker-c2/manifest.json">Manifest nodo GitJoker</a><br/>
+          <a href="https://manuelcoletta1-source.github.io/hermeticum-bce/">Hermeticum B.C.E. Portal</a><br/>
+          <a href="https://manuelcoletta1-source.github.io/hermeticum-bce-ipr/">Hermeticum B.C.E. — IPR</a>
+        </p>
+        <p class="meta">Se un link cambia, la correzione avviene via commit (tracciabilità).</p>
+      </section>
 
-    <h2>4. Metodo di Verifica e Continuità</h2>
-    <ul>
-      <li>repository pubblico versionato (GitHub Pages)</li>
-      <li>marcatura temporale verificabile</li>
-      <li>hash crittografici dei documenti</li>
-      <li>ancoraggi su blockchain pubbliche</li>
-    </ul>
-
-    <h2>5. Valore Giuridico</h2>
-    <ul>
-      <li>non sostituisce i registri ufficiali nazionali o EUIPO</li>
-      <li>costituisce prova documentale di anteriorità e continuità</li>
-      <li>utilizzabile come evidenza tecnica secondo il diritto UE</li>
-    </ul>
-
-    <h2>6. Ente Promotore</h2>
-    <p>
-      <strong>HERMETICUM B.C.E. S.r.l.</strong><br>
-      Fondatore: <strong>Manuel Coletta</strong><br>
-      Giurisdizione: <strong>Unione Europea</strong>
-    </p>
-
-    <h2>7. Stato del Registro</h2>
-    <ul>
-      <li><strong>Stato:</strong> Public Experimental Registry</li>
-      <li><strong>Maturità:</strong> UE-ready / Horizon-compatible</li>
-      <li><strong>Finalità:</strong> Identità digitale e proprietà intellettuale</li>
-    </ul>
-
-    <h2>📘 Public IPR Records</h2>
-
-    <h3>IPR-3 — Manuel Coletta</h3>
-    <p><strong>Stato:</strong> ATTIVO / COMPLETO</p>
-
-    <ul>
-      <li>Nome: Manuel Coletta</li>
-      <li>Data di nascita: 05/02/1988</li>
-      <li>Luogo di nascita: Bologna (BO), Italia</li>
-      <li>Timestamp canonico: <strong>15:30 (CET)</strong></li>
-      <li>Cittadinanza: Italiana</li>
-      <li>Giurisdizione: Unione Europea</li>
-    </ul>
-
-    <p>
-      IPR-3 costituisce il <strong>record primario di identità digitale</strong>
-      del soggetto Manuel Coletta, attestandone esistenza, continuità e titolarità originaria.
-    </p>
-
-    <h3>Ancoraggi di Verifica</h3>
-    <ul>
-      <li><strong>IPFS / Filecoin CID:</strong><br>
-        <code>bafkreidhv73vqrxoweog33ls3rnwrgyicio234pcuks6mnep76yh56pj5q</code>
-      </li>
-      <li><strong>Bitcoin TXID:</strong><br>
-        <code>9eeb29b67f4a649d563b95560fda5ddaa84777b13515f936837fc93d28554b45</code>
-      </li>
-      <li><strong>Ethereum TX:</strong><br>
-        <code>0xf65eb314a1edd392fc15fcd9c65d22060ca39cbac04fcfcb48b978062500a7eff</code>
-      </li>
-    </ul>
-
-    <p>
-      <strong>URL di verifica pubblica:</strong><br>
-      <a href="https://manuelcoletta1-source.github.io/ue-ipr-registry/">
-        https://manuelcoletta1-source.github.io/ue-ipr-registry/
-      </a>
-    </p>
-
+    </div>
   </main>
 
   <footer>
-    Registro pubblico sperimentale UE — IPR Registry<br>
-    © Manuel Coletta · Unione Europea
+    <div class="meta">
+      © 2026 — HERMETICUM B.C.E. S.r.l. — Manuel Coletta — UE IPR Registry
+    </div>
   </footer>
 </body>
 </html>
