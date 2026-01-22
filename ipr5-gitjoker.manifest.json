@@ -10,7 +10,10 @@
     "node_manifest": "https://manuelcoletta1-source.github.io/gitjoker-c2/manifest.json"
   },
   "temporal": { "issued_at": "2026-01-22T09:00:00+01:00", "continuity": "Versioned via public repository commits" },
-  "integrity": { "hash_algorithm": "SHA-256", "hash": "TO_BE_COMPUTED" },
+ "integrity": {
+  "hash_algorithm": "SHA-256",
+  "hash": "a551f3de8c158a9be410e3ad5db5ccdb63aa402639ad709adce169ff09b3b632"
+}
   "legal": { "nature": "Technical documentary evidence", "eu_positioning": "Not a public certification; usable as chronological and identity evidence under EU law" },
   "relations": { "derived_from": "IPR-3 — Manuel Coletta", "registered_in": "UE IPR Registry" }
 }
