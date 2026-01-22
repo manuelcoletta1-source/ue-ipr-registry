@@ -39,10 +39,10 @@ Il registro è orientato ai seguenti contesti:
 ## 4. Metodo di Verifica e Continuità
 Ogni IPR è documentato attraverso:
 
-- repository pubblico versionato
-- marcatura temporale verificabile
-- hash crittografici dei documenti associati
-- ancoraggi su registri distribuiti (blockchain pubbliche)
+- repository pubblico versionato  
+- marcatura temporale verificabile  
+- hash crittografici dei documenti associati  
+- ancoraggi su registri distribuiti (blockchain pubbliche)  
 
 Questa architettura garantisce **trasparenza, verificabilità e non ripudio**.
 
@@ -51,9 +51,9 @@ Questa architettura garantisce **trasparenza, verificabilità e non ripudio**.
 ## 5. Valore Giuridico
 Il presente registro:
 
-- **non sostituisce** i registri ufficiali nazionali o dell’EUIPO
-- costituisce **prova documentale di anteriorità, identità e continuità**
-- è utilizzabile come **evidenza tecnica e cronologica** secondo il diritto UE vigente
+- **non sostituisce** i registri ufficiali nazionali o dell’EUIPO  
+- costituisce **prova documentale di anteriorità, identità e continuità**  
+- è utilizzabile come **evidenza tecnica e cronologica** secondo il diritto UE vigente  
 
 ---
 
@@ -112,13 +112,14 @@ delle opere, dei sistemi e dei progetti riconducibili al soggetto.
 
 ---
 
-## IPR-5 — GitJoker (GITJOKER-C2)
+## IPR-5 — GitJoker (AIJOKER-C2)
 **Stato:** ATTIVO / OPERATIVO  
 **Categoria:** Sistema di Identità Operativa e Coordinamento (C2)
 
 ### Identità del Record
 - **Denominazione:** GitJoker  
-- **Nodo operativo:** GITJOKER-C2  
+- **Nodo operativo (canonico):** AIJOKER-C2  
+- **Alias tecnico / endpoint pubblico:** GITJOKER-C2  
 - **Framework:** Hermeticum B.C.E.  
 - **Versione IPR:** IPR-5  
 - **Ambito:** Identità digitale operativa, governance, sistemi AI collegati alla persona  
@@ -126,12 +127,18 @@ delle opere, dei sistemi e dei progetti riconducibili al soggetto.
 
 ### Descrizione
 IPR-5 GitJoker costituisce il **record primario di identità operativa** di un sistema C2 progettato per:
-- collegare AI intelligenti a una persona fisica o giuridica
-- garantire continuità identitaria nel tempo
-- rendere opponibili decisioni, azioni e deleghe operative
-- operare come carta d’identità cybernetica non istituzionale
+
+- collegare AI intelligenti a una persona fisica o giuridica  
+- garantire continuità identitaria nel tempo  
+- rendere opponibili decisioni, azioni e deleghe operative  
+- operare come carta d’identità cybernetica non istituzionale  
 
 ### Verifica
-- Repository: https://github.com/manuelcoletta1-source/gitjoker-c2
-- Pagina pubblica: https://manuelcoletta1-source.github.io/gitjoker-c2/
-- Manifest del nodo: https://manuelcoletta1-source.github.io/gitjoker-c2/manifest.json
+- **Repository:** https://github.com/manuelcoletta1-source/gitjoker-c2  
+- **Pagina pubblica:** https://manuelcoletta1-source.github.io/gitjoker-c2/  
+- **Manifest del nodo:** https://manuelcoletta1-source.github.io/gitjoker-c2/manifest.json  
+- **Manifest UE (JSON):** `ipr5-gitjoker.manifest.json`
+
+---
+
+**Fine del registro.**
