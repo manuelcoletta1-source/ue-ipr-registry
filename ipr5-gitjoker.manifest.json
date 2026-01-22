@@ -1,19 +1,59 @@
 {
   "schema": "UE-IPR-MANIFEST",
   "schema_version": "1.0.0",
-  "ipr": { "id": "IPR-5", "name": "GitJoker", "category": "Operational Digital Identity / C2 System", "status": "ACTIVE" },
-  "holder": { "type": "natural_person", "name": "Manuel Coletta", "jurisdiction": "European Union", "base_ipr": "IPR-3" },
-  "system": { "node_name": "GITJOKER-C2", "framework": "Hermeticum B.C.E.", "description": "Operational identity system enabling AI-person linkage, governance, and traceable decision execution." },
+
+  "ipr": {
+    "id": "IPR-5",
+    "name": "GitJoker",
+    "category": "Operational Digital Identity / C2 System",
+    "status": "ACTIVE"
+  },
+
+  "holder": {
+    "type": "natural_person",
+    "name": "Manuel Coletta",
+    "jurisdiction": "European Union",
+    "base_ipr": "IPR-3"
+  },
+
+  "system": {
+    "node_name": "AIJOKER-C2",
+    "node_alias": "GITJOKER-C2",
+    "framework": "Hermeticum B.C.E.",
+    "description": "Operational identity system enabling AI–person linkage, governance, and traceable decision execution."
+  },
+
   "verification": {
-    "repositories": ["https://github.com/manuelcoletta1-source/gitjoker-c2"],
-    "public_pages": ["https://manuelcoletta1-source.github.io/gitjoker-c2/"],
+    "repositories": [
+      "https://github.com/manuelcoletta1-source/gitjoker-c2"
+    ],
+    "public_pages": [
+      "https://manuelcoletta1-source.github.io/gitjoker-c2/"
+    ],
     "node_manifest": "https://manuelcoletta1-source.github.io/gitjoker-c2/manifest.json"
   },
-  "temporal": { "issued_at": "2026-01-22T09:00:00+01:00", "continuity": "Versioned via public repository commits" },
- "integrity": {
-  "hash_algorithm": "SHA-256",
-  "hash": "a551f3de8c158a9be410e3ad5db5ccdb63aa402639ad709adce169ff09b3b632"
-}
-  "legal": { "nature": "Technical documentary evidence", "eu_positioning": "Not a public certification; usable as chronological and identity evidence under EU law" },
-  "relations": { "derived_from": "IPR-3 — Manuel Coletta", "registered_in": "UE IPR Registry" }
+
+  "temporal": {
+    "issued_at": "2026-01-22T09:00:00+01:00",
+    "continuity": "Versioned via public repository commits"
+  },
+
+"hash": "..."
+  },
+
+  "legal": {
+    "nature": "Technical documentary evidence",
+    "eu_positioning": "Not a public certification; usable as chronological and identity evidence under EU law"
+  },
+
+  "relations": {
+    "derived_from": "IPR-3 — Manuel Coletta",
+    "registered_in": "UE IPR Registry"
+  },
+
+  "notes": [
+    "GitJoker is the IPR name; AIJOKER-C2 is the canonical operational node.",
+    "GITJOKER-C2 remains as public technical alias and endpoint.",
+    "This manifest is machine-readable and audit-ready."
+  ]
 }
