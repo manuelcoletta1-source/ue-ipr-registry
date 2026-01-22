@@ -1,19 +1,39 @@
-# UE-IPR Registry
+# UE IPR Registry
 
-Registro pubblico di Intellettual Property & Rights  
-Sistema Hermeticum B.C.E.
+Registro pubblico europeo degli **IPR (Intention Primary Records)**  
+secondo il framework **Hermeticum B.C.E.**
 
----
-
-## Registri attivi
-
-- [Registry generale](registry.md)
-- [IPR-3 — Manuel Coletta](ipr-3.md)
-- [IPR-4 — ESOTEROLOGIA EDIZIONI](README.md)
+Questo registro fornisce:
+- evidenza pubblica
+- tracciabilità temporale
+- verificabilità tecnica
+- continuità storica
 
 ---
 
-## Stato
-- Registro: **ACTIVE**
-- Metodo: GitHub Pages + Hash pubblico
-- Standard: UE – tracciabilità aperta
+## Registri
+
+- 📘 [Issued IPR](./registry/issued/)
+- 🧾 [Events & Updates](./registry/events/)
+
+---
+
+## Ambito UE
+Questo registro è progettato per:
+- interoperabilità europea
+- auditabilità tecnica
+- compatibilità concettuale con programmi UE (es. Horizon)
+
+Non sostituisce registri istituzionali.  
+Costituisce **evidenza tecnica opponibile**.
+
+---
+
+## Metodo
+- nessun record viene sovrascritto
+- ogni emissione è versionata
+- Git costituisce prova temporale
+
+---
+
+© Manuel Coletta — Hermeticum B.C.E.
