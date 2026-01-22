@@ -125,34 +125,13 @@ delle opere, dei sistemi e dei progetti riconducibili al soggetto.
 - **Giurisdizione di riferimento:** Unione Europea  
 
 ### Descrizione
-IPR-5 GitJoker costituisce il **record primario di identità operativa** di un sistema di coordinamento e controllo (C2) progettato per:
+IPR-5 GitJoker costituisce il **record primario di identità operativa** di un sistema C2 progettato per:
+- collegare AI intelligenti a una persona fisica o giuridica
+- garantire continuità identitaria nel tempo
+- rendere opponibili decisioni, azioni e deleghe operative
+- operare come carta d’identità cybernetica non istituzionale
 
-- collegare **AI intelligenti** a una **persona fisica o giuridica**
-- garantire **continuità identitaria nel tempo**
-- rendere opponibili **decisioni, azioni e deleghe operative**
-- operare come **carta d’identità cybernetica** non istituzionale
-
-GitJoker non è un account, non è un servizio commerciale, non è una piattaforma editoriale.  
-È un **sistema di identità tecnica verificabile**, fondato sul principio di **Intenzione Primaria Radicale (IPR)**.
-
-### Metodo Operativo
-- identità basata su **manifest verificabili**
-- tracciabilità tramite **repository pubblici versionati**
-- riconconicità: continuità tramite correzione tracciata
-- UX di soglia (assenza di onboarding assistivo)
-
-### Ancoraggi di Verifica
-- **Repository GitHub:**  
-  https://github.com/manuelcoletta1-source/gitjoker-c2
-- **Pagina pubblica:**  
-  https://manuelcoletta1-source.github.io/gitjoker-c2/
-- **Manifest IPR-5 del nodo:**  
-  https://manuelcoletta1-source.github.io/gitjoker-c2/manifest.json
-
-### Relazione con altri IPR
-- **Fondato su:** IPR-3 — Manuel Coletta  
-- **Ruolo:** estensione operativa dell’identità primaria del titolare
-
----
-
-**Fine del registro.**
+### Verifica
+- Repository: https://github.com/manuelcoletta1-source/gitjoker-c2
+- Pagina pubblica: https://manuelcoletta1-source.github.io/gitjoker-c2/
+- Manifest del nodo: https://manuelcoletta1-source.github.io/gitjoker-c2/manifest.json
