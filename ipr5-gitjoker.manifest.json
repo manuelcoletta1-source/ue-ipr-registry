@@ -5,6 +5,7 @@
   "ipr": {
     "id": "IPR-5",
     "name": "GitJoker",
+    "canonical_label": "IPR-5 — GitJoker (AIJOKER-C2)",
     "category": "Operational Digital Identity / C2 System",
     "status": "ACTIVE"
   },
@@ -38,7 +39,7 @@
     "continuity": "Versioned via public repository commits"
   },
 
-"hash": "a551f3de8c158a9be410e3ad5db5ccdb63aa402639ad709adce169ff09b3b632"
+
   },
 
   "legal": {
@@ -52,8 +53,8 @@
   },
 
   "notes": [
-    "GitJoker is the IPR name; AIJOKER-C2 is the canonical operational node.",
-    "GITJOKER-C2 remains as public technical alias and endpoint.",
-    "This manifest is machine-readable and audit-ready."
+    "Canonical operational node name is AIJOKER-C2.",
+    "GITJOKER-C2 is preserved as technical alias and public endpoint.",
+    "This manifest is machine-readable, audit-ready, and UE-aligned."
   ]
 }
