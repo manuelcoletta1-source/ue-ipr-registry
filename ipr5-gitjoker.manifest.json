@@ -1,64 +1,16 @@
 {
   "schema": "UE-IPR-MANIFEST",
   "schema_version": "1.0.0",
-
-  "ipr": {
-    "id": "IPR-5",
-    "name": "GitJoker",
-    "category": "Operational Digital Identity / C2 System",
-    "status": "ACTIVE"
-  },
-
-  "holder": {
-    "type": "natural_person",
-    "name": "Manuel Coletta",
-    "jurisdiction": "European Union",
-    "base_ipr": "IPR-3"
-  },
-
-  "system": {
-    "node_name": "GITJOKER-C2",
-    "framework": "Hermeticum B.C.E.",
-    "description": "Operational identity system enabling AI-person linkage, governance, and traceable decision execution."
-  },
-
-  "intent": {
-    "ipr_meaning": "Intenzione Primaria Radicale",
-    "ux_principle": "Intentional friction, error visibility, trust-by-inspection"
-  },
-
+  "ipr": { "id": "IPR-5", "name": "GitJoker", "category": "Operational Digital Identity / C2 System", "status": "ACTIVE" },
+  "holder": { "type": "natural_person", "name": "Manuel Coletta", "jurisdiction": "European Union", "base_ipr": "IPR-3" },
+  "system": { "node_name": "GITJOKER-C2", "framework": "Hermeticum B.C.E.", "description": "Operational identity system enabling AI-person linkage, governance, and traceable decision execution." },
   "verification": {
-    "repositories": [
-      "https://github.com/manuelcoletta1-source/gitjoker-c2"
-    ],
-    "public_pages": [
-      "https://manuelcoletta1-source.github.io/gitjoker-c2/"
-    ],
+    "repositories": ["https://github.com/manuelcoletta1-source/gitjoker-c2"],
+    "public_pages": ["https://manuelcoletta1-source.github.io/gitjoker-c2/"],
     "node_manifest": "https://manuelcoletta1-source.github.io/gitjoker-c2/manifest.json"
   },
-
-  "temporal": {
-    "issued_at": "2026-01-22T09:00:00+01:00",
-    "continuity": "Versioned via public repository commits"
-  },
-
-  "integrity": {
-    "hash_algorithm": "SHA-256",
-    "hash": "TO_BE_COMPUTED"
-  },
-
-  "legal": {
-    "nature": "Technical documentary evidence",
-    "eu_positioning": "Not a public certification; usable as chronological and identity evidence under EU law"
-  },
-
-  "relations": {
-    "derived_from": "IPR-3 — Manuel Coletta",
-    "registered_in": "UE IPR Registry"
-  },
-
-  "notes": [
-    "This manifest provides machine-readable evidence for IPR-5 GitJoker.",
-    "No personal sensitive data is included."
-  ]
+  "temporal": { "issued_at": "2026-01-22T09:00:00+01:00", "continuity": "Versioned via public repository commits" },
+  "integrity": { "hash_algorithm": "SHA-256", "hash": "TO_BE_COMPUTED" },
+  "legal": { "nature": "Technical documentary evidence", "eu_positioning": "Not a public certification; usable as chronological and identity evidence under EU law" },
+  "relations": { "derived_from": "IPR-3 — Manuel Coletta", "registered_in": "UE IPR Registry" }
 }
