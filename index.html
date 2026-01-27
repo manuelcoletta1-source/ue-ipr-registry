@@ -1,102 +1,105 @@
 <!doctype html>
 <html lang="it">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>UE IPR Registry — Public Experimental Registry</title>
-  <meta name="description" content="Registro pubblico sperimentale UE di Identity Primary Records (IPR). Evidenza, tracciabilità e verificabilità nel tempo." />
-  <style>
-    :root { color-scheme: dark; }
-    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background:#0b0c10; color:#e8e8e8; }
-    header, main, footer { max-width: 980px; margin: 0 auto; padding: 20px; }
-    .card { border: 1px solid #24262b; border-radius: 14px; padding: 16px; background: #0f1117; }
-    h1 { margin: 0 0 6px 0; font-size: 26px; letter-spacing: .2px; }
-    h2 { margin: 18px 0 10px 0; font-size: 18px; }
-    p { margin: 8px 0; line-height: 1.45; color:#cfd2d6; }
-    .meta { font-size: 13px; color:#9aa2aa; }
-    a { color: #d6b8ff; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
-    .k { font-weight: 600; color:#e8e8e8; }
-    code { background:#0b0c10; padding: 2px 6px; border-radius: 8px; border:1px solid #24262b; }
-    .tag { display:inline-block; padding: 4px 10px; border:1px solid #24262b; border-radius: 999px; font-size: 12px; color:#cfd2d6; background:#0b0c10; }
-    .btnrow { display:flex; gap:10px; flex-wrap: wrap; margin-top: 10px; }
-    .btn { display:inline-block; padding:10px 12px; border-radius:12px; border:1px solid #24262b; background:#0b0c10; }
-  </style>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>UE-IPR-REGISTRY — Registro sperimentale (Fail-Closed)</title>
+  <meta name="description" content="Registro sperimentale UE-oriented di IPR. Solo evidenze tecniche verificabili. Hash-only. Audit-first. Fail-closed."/>
+  <link rel="stylesheet" href="/assets/ui.css"/>
 </head>
 <body>
-  <header>
-    <div class="card">
-      <h1>UE IPR Registry</h1>
-      <div class="meta">Public Experimental Registry — UE-ready / Horizon-compatible</div>
+
+<header>
+  <div class="wrap nav">
+    <a class="btn primary" href="/">Hermeticum B.C.E.</a>
+    <a class="btn" href="/tech/">Tech</a>
+    <a class="btn" href="/map/">Map</a>
+    <span class="spacer"></span>
+    <a class="btn" href="https://manuelcoletta1-source.github.io/hermeticum-bce-b2g/">B2G</a>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <section class="box">
+    <h1>UE-IPR-REGISTRY</h1>
+    <p>
+      Registro <b>sperimentale</b> orientato UE per la pubblicazione di
+      <b>riferimenti tecnici verificabili</b> (hash, receipt, manifest) relativi a IPR.
+      Nessuna identità civile. Nessun effetto legale automatico.
+    </p>
+    <p>
+      <span class="tag">UE-first</span>
+      <span class="tag">Audit-first</span>
+      <span class="tag">Hash-only</span>
+      <span class="tag">Fail-closed</span>
+      <span class="tag">Experimental</span>
+    </p>
+    <div class="cta">
+      <a class="btn primary" href="#criteri">Criteri di ammissione</a>
+      <a class="btn" href="#come">Come pubblicare</a>
+      <a class="btn" href="./REGISTRY_MODEL.md">Modello</a>
+    </div>
+  </section>
+
+  <section class="grid2" id="criteri">
+    <div class="box">
+      <h2>Criteri di ammissione (FAIL-CLOSED)</h2>
       <p>
-        Registro pubblico sperimentale di <span class="k">Identity Primary Records (IPR)</span>:
-        evidenza cronologica, continuità identitaria, verificabilità tecnica.
+        Un record può essere elencato solo se:
+        <br/>• digest verificabile (SHA-512 su `ipr.canon.json`)
+        <br/>• receipt verificabile (ED25519) se dichiarata
+        <br/>• manifest coerente (PACK_MANIFEST) se presente
+        <br/>• nessun dato personale pubblicato (hash-only)
       </p>
-      <div class="btnrow">
-        <a class="btn" href="./README.html">Leggi il Registro</a>
-        <a class="btn" href="https://github.com/manuelcoletta1-source/ue-ipr-registry">Repository</a>
-      </div>
-      <p class="meta">
-        Nota: non sostituisce registri ufficiali (EUIPO / nazionali). Costituisce evidenza tecnica documentale.
+      <p>
+        Se una verifica fallisce o è indeterminata ⇒ <b>NON AMMESSO</b>.
       </p>
     </div>
-  </header>
 
-  <main>
-    <div class="grid">
-
-      <section class="card">
-        <h2>IPR-3 — Manuel Coletta</h2>
-        <p class="meta"><span class="tag">ACTIVE / COMPLETE</span> <span class="tag">EU</span></p>
-        <p><span class="k">Timestamp canonico:</span> <code>15:30 (CET)</code></p>
-        <p class="k">Ancoraggi</p>
-        <p>
-          <span class="k">IPFS CID:</span>
-          <code>bafkreidhv73vqrxoweog33ls3rnwrgyicio234pcuks6mnep76yh56pj5q</code>
-        </p>
-        <p>
-          <span class="k">BTC TXID:</span>
-          <code>9eeb29b67f4a649d563b95560fda5ddaa84777b13515f936837fc93d28554b45</code>
-        </p>
-        <p>
-          <span class="k">ETH TX:</span>
-          <code>0xf65eb314a1edd392fc15fcd9c65d22060ca39cbac04fcfcb48b978062500a7eff</code>
-        </p>
-      </section>
-
-      <section class="card">
-        <h2>IPR-5 — GitJoker (AIJOKER-C2)</h2>
-        <p class="meta"><span class="tag">ACTIVE</span> <span class="tag">C2</span> <span class="tag">Operational Identity</span></p>
-        <p><span class="k">Nodo canonico:</span> <code>AIJOKER-C2</code></p>
-        <p><span class="k">Alias endpoint:</span> <code>GITJOKER-C2</code></p>
-        <p class="k">Verifica</p>
-        <p>
-          <a href="./ipr5-gitjoker.manifest.json">Manifest UE (JSON)</a><br/>
-          <a href="https://manuelcoletta1-source.github.io/gitjoker-c2/manifest.json">Manifest nodo (GITJOKER-C2)</a><br/>
-          <a href="https://manuelcoletta1-source.github.io/gitjoker-c2/">Pagina pubblica GitJoker</a><br/>
-          <a href="https://github.com/manuelcoletta1-source/gitjoker-c2">Repo GitJoker-C2</a>
-        </p>
-      </section>
-
-      <section class="card">
-        <h2>Link rapidi</h2>
-        <p>
-          <a href="./ipr5-gitjoker.manifest.json">IPR-5 Manifest UE (JSON)</a><br/>
-          <a href="https://manuelcoletta1-source.github.io/gitjoker-c2/manifest.json">Manifest nodo GitJoker</a><br/>
-          <a href="https://manuelcoletta1-source.github.io/hermeticum-bce/">Hermeticum B.C.E. Portal</a><br/>
-          <a href="https://manuelcoletta1-source.github.io/hermeticum-bce-ipr/">Hermeticum B.C.E. — IPR</a>
-        </p>
-        <p class="meta">Se un link cambia, la correzione avviene via commit (tracciabilità).</p>
-      </section>
-
+    <div class="box">
+      <h2>Cosa non è</h2>
+      <p>
+        • Non è registro civile / identità UE<br/>
+        • Non sostituisce eIDAS / EUDI Wallet<br/>
+        • Non è un albo professionale<br/>
+        • Non certifica contenuti: certifica solo verificabilità tecnica
+      </p>
     </div>
-  </main>
+  </section>
 
-  <footer>
-    <div class="meta">
-      © 2026 — HERMETICUM B.C.E. S.r.l. — Manuel Coletta — UE IPR Registry
+  <section class="box" id="come">
+    <h2>Come pubblicare (alto livello)</h2>
+    <p>
+      1) Genera IPR + Evidence Pack nel Gateway UE<br/>
+      2) Verifica offline (hash/firma/manifest)<br/>
+      3) Pubblica nel registry solo riferimenti hash e receipt (mai documenti)
+    </p>
+    <div class="cta">
+      <a class="btn primary" href="https://manuelcoletta1-source.github.io/hermeticum-bce-platform/create/">Create</a>
+      <a class="btn" href="https://manuelcoletta1-source.github.io/hermeticum-bce-platform/verify/">Verify</a>
+      <a class="btn" href="./SUBMISSION.md">Submission</a>
     </div>
-  </footer>
+  </section>
+
+  <section class="box">
+    <h2>Nota di responsabilità</h2>
+    <p>
+      Questo registro è un supporto sperimentale per audit e ricerca.
+      Non attribuisce status legale né diritti automaticamente.
+      L’uso in contesti pubblici richiede valutazione istituzionale.
+    </p>
+  </section>
+
+</div>
+
+<footer>
+  <div class="wrap">
+    <p class="small">
+      HERMETICUM B.C.E. S.r.l. — UE-IPR-REGISTRY · Registro sperimentale · Hash-only · Fail-closed
+    </p>
+  </div>
+</footer>
+
 </body>
 </html>
