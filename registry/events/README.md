@@ -1,12 +1,28 @@
-# UE IPR Registry — Events
+# UE IPR Registry — Events (append-only)
 
-Registro aggiornamenti, correzioni e normalizzazioni.
+Registro eventi e normalizzazioni del **UE IPR Registry**.
+Questo file è **append-only**: in caso di errore si aggiunge una *correzione* (non si cancella).
 
-Formato:
-- data
-- evento
-- riferimento (commit / manifest)
+## Format (machine-friendly)
+Each entry MUST be:
 
+- date: ISO-8601 (local offset allowed)
+  event: short description (no PII)
+  ref: commit / manifest / hash / external repo pointer (public)
+
+## Policy
+- **FAIL_CLOSED**: se non verificabile ⇒ non elevare a “Issued”
+- **HASH_ONLY**: niente documenti, niente dati personali
+- **APPEND_ONLY**: correzioni via nuove righe, non riscrittura selettiva
+
+## Dedupe rule (non-destructive)
+Se due eventi sono duplicati:
+- si lascia tutto com’è
+- si aggiunge una entry “correction: duplicate detected” con i riferimenti
+
+---
+
+## Timeline
 - date: 2026-03-04T17:42:35+01:00
   event: "normalize events path + ipr-4 filename (refactor)"
   ref: "commit 02420db"
