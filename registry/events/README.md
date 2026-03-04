@@ -29,3 +29,15 @@ Formato:
 - date: 2026-03-04T17:51:31+01:00
   event: "refactor issued index as hash-only + fail-closed entry"
   ref: "commit 8f99d3b (refactor(issued))"
+
+- date: 2026-03-04T18:09:46+01:00
+  event: "bridge GitJoker-C2 ACT update (append-only)"
+  ref: "gitjoker-c2 act_id=3 entry_sha256=ec1d82731237c66b63bce77fd0ffb011f80df2f949b19753ff5483f403998d5b"
+
+- date: 2026-03-04T18:10:52+01:00
+  event: "bridge GitJoker-C2 ACT update (append-only)"
+  ref: "gitjoker-c2 act_id=3 entry_sha256=ec1d82731237c66b63bce77fd0ffb011f80df2f949b19753ff5483f403998d5b"
+
+- date: 2026-03-04T18:11:27+01:00
+  event: "correction: duplicate event entry detected (append-only note)"
+  ref: "duplicates: 2026-03-04T18:09:46+01:00 and 2026-03-04T18:10:52+01:00 are same act_id=3 entry_sha256=ec1d8273..."
