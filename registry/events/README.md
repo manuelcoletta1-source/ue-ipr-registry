@@ -61,3 +61,7 @@ Se due eventi sono duplicati:
 - date: 2026-03-04T18:18:26+01:00
   event: "refactor issued index: hash-only + reproducible verification pointer (IPR-5)"
   ref: "commit 7641f24"
+
+- date: 2026-03-04T18:20:03+01:00
+  event: "fix ipr5 manifest: valid JSON + bind act-chain verifier (hash-only)"
+  ref: "commit 7c95ff5"
