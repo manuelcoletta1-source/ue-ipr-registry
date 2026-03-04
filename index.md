@@ -1,7 +1,6 @@
 # UE IPR Registry
 
-Registro pubblico europeo degli **IPR (Intention Primary Records)**  
-secondo il framework **Hermeticum B.C.E.**
+Registro pubblico europeo degli **IPR (Identity Primary Records)** secondo il framework **Hermeticum B.C.E.**.
 
 Questo registro fornisce:
 - evidenza pubblica
@@ -15,6 +14,16 @@ Questo registro fornisce:
 
 - 📘 [Issued IPR](./registry/issued/)
 - 🧾 [Events & Updates](./registry/events/)
+
+---
+
+## Index (record principali)
+
+| IPR ID | Soggetto | Stato | Ambito | Link |
+|------:|----------|:-----:|--------|------|
+| IPR-3 | Manuel Coletta | ACTIVE | Identità / Ricerca | ./ipr-3.md |
+| IPR-4 | ESOTEROLOGIA — Edizioni | ACTIVE | Ente editoriale disciplinare | ./ipr-4.md |
+| IPR-5 | GitJoker / AIJOKER-C2 | ACTIVE | C2 Reference Implementation | ./ipr5-gitjoker.manifest.json |
 
 ---
 
