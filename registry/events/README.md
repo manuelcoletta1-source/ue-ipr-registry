@@ -69,3 +69,7 @@ Se due eventi sono duplicati:
 - date: 2026-03-04T18:36:07+01:00
   event: "feat verify: registry verifier now checks GitJoker-C2 act-chain from UE manifest (fail-closed)"
   ref: "commit 1a126fd"
+
+- date: 2026-03-04T18:38:33+01:00
+  event: "feat verify: add verify.sh one-shot audit wrapper (AUDIT_STATUS=PASS/FAIL)"
+  ref: "commit 85bd66e"
