@@ -57,3 +57,7 @@ Se due eventi sono duplicati:
 - date: 2026-03-04T18:11:27+01:00
   event: "correction: duplicate event entry detected (append-only note)"
   ref: "duplicates: 2026-03-04T18:09:46+01:00 and 2026-03-04T18:10:52+01:00 are same act_id=3 entry_sha256=ec1d8273..."
+
+- date: 2026-03-04T18:18:26+01:00
+  event: "refactor issued index: hash-only + reproducible verification pointer (IPR-5)"
+  ref: "commit 7641f24"
