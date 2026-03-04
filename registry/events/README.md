@@ -25,3 +25,7 @@ Formato:
       last_entry_sha256: "ec1d82731237c66b63bce77fd0ffb011f80df2f949b19753ff5483f403998d5b"
     verifier:
       cmd: "python3 /home/manuelcoletta1/gitjoker-c2/tools/verify_acts.py --allow-genesis-resets"
+
+- date: 2026-03-04T17:51:31+01:00
+  event: "refactor issued index as hash-only + fail-closed entry"
+  ref: "commit 8f99d3b (refactor(issued))"
